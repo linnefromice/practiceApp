@@ -29,16 +29,18 @@
                 <th>USER_ID</th>
                 <th>TASK_TITLE</th>
                 <th>TASK_DESCIPTION</th>
-                <th>COMPLETED</th>
                 <th>REGISTERED_DATE</th>
+                <th>COMPLETION_DATE</th>
+                <th>COMPLETED</th>
             </tr>
             <tr th:each="task : ${tasks}">
                 <td th:text="${task.id}"></td>
                 <td th:text="${task.user_id}"></td>
                 <td th:text="${task.task_title}"></td>
                 <td th:text="${task.task_description}"></td>
-                <td th:text="${task.completed}"></td>
                 <td th:text="${task.registered_date}"></td>
+                <td th:text="${task.completion_date}"></td>
+                <td th:text="${task.completed}"></td>
             </tr>
         </table>
     </div>

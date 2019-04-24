@@ -1,6 +1,5 @@
 package jp.co.linnefromice.todolist01.controller;
 
-import ch.qos.logback.core.net.SyslogOutputStream;
 import jp.co.linnefromice.todolist01.model.Task;
 import jp.co.linnefromice.todolist01.model.User;
 import jp.co.linnefromice.todolist01.service.TaskService;

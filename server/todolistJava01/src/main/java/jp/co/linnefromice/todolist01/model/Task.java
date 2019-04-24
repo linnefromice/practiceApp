@@ -25,8 +25,9 @@ public class Task {
 
     private String task_description;
 
-    private Boolean completed;
-
     private Date registered_date;
 
+    private Date completion_date;
+
+    private Boolean completed;
 }
